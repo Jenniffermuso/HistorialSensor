@@ -10,20 +10,6 @@ function LED1_On() {
   
 }
 
-/*function LED1_Off(){	
-	//alert("led off");
-	console.log("led off");
-	//document.getElementById("sensor").innerHTML="led off";
-	message = new Paho.MQTT.Message("OFF");
-	message.destinationName = "jenniffermuso26@gmail.com/te2";
-	client.send(message);
-}*/
-
-
-
-
-
-
 // Create a client instance
   //client = new Paho.MQTT.Client("postman.cloudmqtt.com", 14970);
   
