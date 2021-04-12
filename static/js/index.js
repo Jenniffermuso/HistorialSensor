@@ -4,7 +4,7 @@ function LED1_On() {
 	//alert("led on");
 	console.log("led on");
 	//document.getElementById("sensor").innerHTML="led on";
-	message = new Paho.MQTT.Message("ON");
+	message = new Paho.MQTT.Message("PEDIR");
 	message.destinationName = "jenniffermuso26@gmail.com/te2";
 	client.send(message);
   
